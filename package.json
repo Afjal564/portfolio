@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "install": "npm install --legacy-peer-deps",
+    "build-vercel": "vercel build"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
@@ -29,9 +31,5 @@
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.6",
     "vite": "^4.1.0"
-  },
-  "scripts": {
-  "install": "npm install --legacy-peer-deps",
-  "build": "vercel build"
-}
+  }
 }
